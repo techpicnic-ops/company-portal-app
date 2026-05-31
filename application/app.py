@@ -4,7 +4,7 @@ import os
 
 app = Flask(__name__)
 
-# Read environment variables from container if present
+# Read environment variables from container if present - test1
 try:
     PROXY = os.environ['PROXY']
     DB_HOST = os.environ['DB_HOST']
