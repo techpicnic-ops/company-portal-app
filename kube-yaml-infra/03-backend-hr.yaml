@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: company-portal-backend-hr
-        image: docker.io/sureshtamizan/company-portal1-backend-hr:v1
+        image: docker.io/sureshtamizan/company-portal-backend-hr:v2
         imagePullPolicy: Always
         ports:
         - containerPort: 5000
