@@ -14,3 +14,5 @@ git add . [ adding all the files to the staging section in local repo]
 git commit [ saving the content into the local repo ]
 
 git push [ pushing / copying files/folders into the remote repo]
+
+new line
