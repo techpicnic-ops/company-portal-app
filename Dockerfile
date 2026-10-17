@@ -1,5 +1,5 @@
 FROM python:3.10-slim
-WORKDIR /app2
+WORKDIR /app
 COPY . .
 RUN pip install flask requests
 RUN apt-get update && apt-get install -y curl \
