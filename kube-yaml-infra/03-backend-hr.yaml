@@ -5,7 +5,7 @@ metadata:
   name: company-portal-backend-hr-deployment
   namespace: company-portal-ns
 spec:
-  replicas: 1
+  replicas: 5
   selector:
     matchLabels:
       app: company-portal-backend-hr-label
